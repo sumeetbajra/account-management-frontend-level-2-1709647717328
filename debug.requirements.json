@@ -1,0 +1,34 @@
+[
+  {
+    "requirement": "The application must allow users to add, view, and delete recipes using Vue.js, Vuex, and Ant Design Vue.",
+    "criteria": "<p>Ensure the application uses Vue.js for the frontend, Vuex for state management, and Ant Design Vue components where appropriate.</p><p>Check for functional correctness against the E2E tests, specifically for adding, viewing, and deleting recipes.</p>"
+  },
+  {
+    "requirement": "The application should be typed using TypeScript and follow ES6 standards.",
+    "criteria": "<p>Review the code to confirm TypeScript is used throughout the application for type-safety.</p><p>Ensure ES6 features like const/let, arrow functions, template literals, and destructuring are used appropriately for cleaner and more maintainable code.</p>"
+  },
+  {
+    "requirement": "The project must be built with Vite.",
+    "criteria": "<p>Verify that Vite is used as the build tool for the project, ensuring fast builds and re-builds.</p>"
+  },
+  {
+    "requirement": "Form data (recipe name and ingredients) must be validated client-side.",
+    "criteria": "<p>Check that the form prevents submission unless a recipe name and at least one ingredient are provided.</p><p>Ensure client-side validation for the form inputs to enhance user experience and reduce unnecessary requests.</p>"
+  },
+  {
+    "requirement": "The application handles errors gracefully.",
+    "criteria": "<p>Review the application's error handling to ensure it gracefully handles scenarios such as failed updates to the recipe list.</p><p>Ensure the user is informed of errors in a user-friendly manner without application crashes or state corruption.</p>"
+  },
+  {
+    "requirement": "At least one component must be covered with unit tests using Jest.",
+    "criteria": "<p>Ensure that Jest is used for writing unit tests for at least one component.</p><p>Tests should cover both happy path scenarios and edge cases to ensure robustness.</p>"
+  },
+  {
+    "requirement": "The code must be clean and maintainable, with reusable components and utilities where appropriate.",
+    "criteria": "<p>Assess the code's organization, readability, and maintainability.</p><p>Look for the use of reusable components and utilities that reduce code duplication and complexity.</p>"
+  },
+  {
+    "requirement": "The application should include basic styling using SASS.",
+    "criteria": "<p>Ensure that SASS is used for styling, improving the visual appeal of the application.</p><p>Review the use of Ant Design Vue components and how they are styled to fit the application's overall design.</p>"
+  }
+]

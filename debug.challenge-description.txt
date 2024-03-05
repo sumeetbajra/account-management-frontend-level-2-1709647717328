@@ -1,0 +1,1 @@
+This challenge involves creating a Unique Recipe Manager frontend application that allows users to add, view, and delete recipes. It assesses the candidate's skills in Vue.js, Vuex, Ant Design Vue, TypeScript, Vite, Jest, clean code practices, ES6, and SASS.
